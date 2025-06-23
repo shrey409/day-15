@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Container Blocks</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    .border-thick {
+      border: 12px solid #ffc107;
+    }
+
+    .border-regular {
+      border: 6px solid #28a745;
+    }
+
+    .border-thin {
+      border: 3px solid #dc3545;
+    }
+
+    .border-heavy {
+      border: 20px solid #0d6efd;
+    }
+
+    .box {
+      margin-bottom: 2rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body class="p-4">
+
+  <div class="container bg-success text-white border-regular box">
+    <h2>Good Vibes</h2>
+    <p>This section has a strong green look and works well for positive highlights or wins.</p>
+  </div>
+
+  <div class="container bg-warning text-dark border-thin box">
+    <h2>Reminder</h2>
+    <p>Yellow stands out, so this is great for things you don't want missed.</p>
+  </div>
+
+  <div class="container bg-primary text-white border-thick box">
+    <h2>Main Feature</h2>
+    <p>Blue gives off a stable, clean feel—ideal for key content or headers.</p>
+  </div>
+
+  <div class="container bg-secondary text-light border-heavy box">
+    <h2>Details</h2>
+    <p>This one keeps things subtle. Perfect for side notes or extra info.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
